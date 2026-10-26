@@ -343,8 +343,7 @@ blockquote.quote cite { font-style: normal; color: var(--muted); font-size: 0.92
 .plan-list span { color: var(--muted); font-size: 0.93rem; }
 .scout-map { margin: 0; display: grid; gap: 8px; }
 .scout-img { position: relative; border-radius: 8px; overflow: hidden; }
-.scout-img img { width: 100%; height: auto; max-width: 100%; filter: saturate(.8); }
-.pin { position: absolute; width: 18px; height: 18px; margin: -9px 0 0 -9px; border-radius: 50%; background: #e2342b; border: 3px solid #fff; box-shadow: 0 0 0 2px rgba(226,52,43,.35), 0 2px 6px rgba(0,0,0,.35); }
+.scout-img img { width: 100%; height: auto; max-width: 100%; }
 .scout-map figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font-size: 0.8rem; color: var(--muted); }
 .scout-map figcaption span:first-child { display: inline-flex; align-items: center; gap: 6px; }
 .pin-key { width: 12px; height: 12px; border-radius: 50%; background: #e2342b; border: 2px solid #fff; box-shadow: 0 0 0 1px #e2342b; display: inline-block; }
@@ -359,6 +358,14 @@ nav a.login svg { width: 18px; height: 18px; fill: none; stroke: currentColor; s
 .a365-cta .app-link { color: #fff; font-weight: 600; font-size: 0.92rem; text-underline-offset: 3px; }
 .foot-links { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; }
 .foot-links a { font-weight: 600; }
+
+.app-shot { margin: 0; display: grid; gap: 8px; justify-items: center; }
+.app-shot img { width: 100%; max-width: 420px; height: auto; border-radius: 10px; box-shadow: 0 10px 30px rgba(18,22,20,.12); }
+.app-shot figcaption, .scout-map figcaption { font-size: 0.82rem; color: var(--muted); }
+.scout-key { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.8rem; color: var(--muted); }
+.scout-key span { display: inline-flex; align-items: center; gap: 6px; }
+.scout-key i { width: 12px; height: 12px; border-radius: 50%; display: inline-block; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.15); }
+.scout-obs { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); max-width: 100%; }
 
 /* Services: icon tiles */
 .services { background: var(--paper); }
